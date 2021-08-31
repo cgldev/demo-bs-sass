@@ -1,0 +1,19 @@
+{
+  "name": "demo-bs-sass",
+  "version": "1.0.0",
+  "description": "Sitio demo creado con Bootstrap v.5 y SASS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bootstrap",
+    "sass"
+  ],
+  "author": "Cesar Gimenez Lascano",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "bootstrap": "^5.1.0"
+  }
+}
