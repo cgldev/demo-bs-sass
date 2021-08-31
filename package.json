@@ -4,7 +4,7 @@
   "description": "Sitio demo creado con Bootstrap v.5 y SASS",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "sass --watch scss/style.scss assets/css/style.css"
+    "compile:sass": "sass --watch scss/style.scss css/style.css"
   },
   "keywords": [
     "bootstrap",
