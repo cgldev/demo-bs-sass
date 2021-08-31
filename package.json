@@ -4,7 +4,7 @@
   "description": "Sitio demo creado con Bootstrap v.5 y SASS",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile:sass": "sass --watch scss/styles.scss css/styles.css"
   },
   "keywords": [
     "bootstrap",
