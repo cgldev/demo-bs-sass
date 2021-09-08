@@ -11268,6 +11268,40 @@ textarea.form-control-lg {
   text-transform: capitalize;
 }
 
+.footer {
+  padding-top: 1rem;
+  background-color: #000;
+}
+
+.footer-sm {
+  background-color: #212121;
+}
+.footer-sm a {
+  color: #fff;
+}
+.footer-sm a i {
+  font-size: 1rem;
+  margin-left: 1rem;
+}
+@media (min-width: 576px) {
+  .footer-sm a i {
+    font-size: 1.6rem;
+  }
+}
+
+.footer-bottom__copy {
+  color: #6c757d;
+  font-weight: 400;
+}
+.footer-bottom__copy a {
+  color: #6c757d;
+  text-decoration: none;
+}
+.footer-bottom__copy a:hover {
+  color: #55ae36;
+  text-decoration: underline;
+}
+
 .intro-section {
   background: linear-gradient(to right, rgba(85, 174, 54, 0.95), rgba(136, 225, 105, 0.95));
   padding: 10rem 0 0 0;
