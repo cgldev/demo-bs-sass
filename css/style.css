@@ -11232,6 +11232,42 @@ textarea.form-control-lg {
   height: 100%;
 }
 
+.gradient {
+  background: linear-gradient(to right, rgba(85, 174, 54, 0.95), rgba(136, 225, 105, 0.95));
+}
+
+.cta-info {
+  padding: 3rem;
+  margin: 1rem 0;
+}
+.cta-info__list {
+  position: relative;
+  list-style-type: none;
+  display: block;
+  padding: 0.5rem 0 0 0.5rem;
+  margin-top: 0.7rem;
+}
+.cta-info__list li::before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f14a";
+  font-weight: 600;
+  margin-right: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.form {
+  padding: 3rem;
+}
+.form button {
+  border: none;
+  color: #fff;
+}
+.form button a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
 .intro-section {
   background: linear-gradient(to right, rgba(85, 174, 54, 0.95), rgba(136, 225, 105, 0.95));
   padding: 10rem 0 0 0;
