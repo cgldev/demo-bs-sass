@@ -11384,6 +11384,7 @@ textarea.form-control-lg {
 .section-404 {
   height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
