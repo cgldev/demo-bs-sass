@@ -11381,4 +11381,10 @@ textarea.form-control-lg {
   max-width: 100%;
 }
 
+.section-error {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /*# sourceMappingURL=style.css.map */
