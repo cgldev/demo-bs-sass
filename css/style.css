@@ -11381,7 +11381,8 @@ textarea.form-control-lg {
   max-width: 100%;
 }
 
-.section-error {
+.section-404 {
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
