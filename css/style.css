@@ -11302,13 +11302,63 @@ textarea.form-control-lg {
   text-decoration: underline;
 }
 
-.intro-section {
+.us {
+  padding: 4rem 0;
+}
+.us button {
+  text-transform: capitalize;
+}
+
+.us-box {
+  position: relative;
+  width: 100%;
+  max-height: 18.5rem;
+  overflow: hidden;
+  margin-bottom: 1.2rem;
+  border-bottom: 0.5rem solid #55ae36;
+}
+.us-box img {
+  width: 100%;
+}
+.us-box .us-info {
+  background-color: rgba(85, 174, 54, 0.75);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 1s ease;
+}
+.us-box .caption {
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.us-box .caption h4 {
+  text-transform: uppercase;
+  display: block;
+}
+.us-box:hover img {
+  transform: scale(1.5);
+  transition: all 1s ease;
+}
+.us-box:hover .us-info {
+  opacity: 1;
+  visibility: visible;
+}
+
+#home {
   background: linear-gradient(to right, rgba(85, 174, 54, 0.95), rgba(136, 225, 105, 0.95));
   padding: 10rem 0 0 0;
   width: 100%;
   height: 100%;
 }
-.intro-section .img-box img {
+#home .img-box img {
   animation: from-right 1.5s ease;
 }
 
